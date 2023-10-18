@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    background: linear-gradient(to bottom, #ff66b2, #ff3366);
+    text-align: center;
+}
+
+.container {
+    color: white;
+    padding: 20px;
+}
+
+button {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    background: white; /* Fundo branco */
+    color: #ff3366; /* Cor do texto */
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background: #ff66b2;
+}
+
+.imagem-destaque {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+}
